@@ -1,0 +1,24 @@
+{
+  "name": "svelte-kit-session-authentication-cookies",
+  "version": "0.0.1",
+  "description": "A SvelteJS project (svelteKit), Session Authentication using Cookies (https://www.youtube.com/watch?v=bG7cxwBMVag)",
+  "author": "zerofinding <zerofinding.dev@gmail.com>",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "start": "svelte-kit start"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-node": "next",
+    "@sveltejs/kit": "next",
+    "svelte": "^3.29.0",
+    "vite": "^2.1.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "cookie": "^0.4.1",
+    "string-hash": "^1.1.3",
+    "tedis": "^0.1.12",
+    "uuid": "^8.3.2"
+  }
+}
